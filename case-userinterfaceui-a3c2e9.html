@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Relay Group – Graphic User Interface Guidelines | Jonathan Galea</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">← Back to Portfolio</a>
+  </div>
+</nav>
+
+<!-- Hero Image -->
+<img src="images/Jonathan Galea Portfolio_Page_395.jpg" class="case-hero reveal" alt="Hero Image">
+
+<section class="case reveal">
+
+  <h1>Relay Group – Graphic User Interface Guidelines</h1>
+
+  <div class="meta">
+    <div>
+      <strong>Client</strong>
+      <p>Relay Group</p>
+    </div>
+    <div>
+      <strong>Role</strong>
+      <p>Designer</p>
+    </div>
+    <div>
+      <strong>Year</strong>
+      <p>2013</p>
+    </div>
+  </div>
+
+  <h3>The Challenge</h3>
+  <p class="desc">
+    Create detailed UI guidelines for a complex system, including component specifications and visual standards.
+  </p>
+
+  <h3>The Process</h3>
+  <p class="desc">
+    I designed a futuristic cover featuring a high-tech hand/scan visual metaphor. Inside, I meticulously documented all key interface elements including data fields, buttons, icons, headers, error states, and data display components. The guide covers detailed specifications such as spacing, alignment, typography, color usage, and interactive behaviors to provide developers and designers with clear implementation rules.
+  </p>
+  <div class="process-images">
+  </div>
+
+  <h3>The Solution</h3>
+  <p class="desc">
+    A professional, technical UI style guide with a clean blue grid-based aesthetic. The document features precise component breakdowns, redline annotations, and practical examples that bridge design and development, ensuring pixel-perfect consistency throughout the application.
+  </p>
+
+  <h3>Results / Impact</h3>
+  <p class="desc">
+    The Relay Group GUI Guidelines served as the official design reference document for the development team. It significantly improved design consistency, reduced implementation errors, and accelerated the development process by providing clear, reusable interface standards.
+  </p>
+
+  <h3>Gallery</h3>
+  <div class="case-grid">
+    <img src="images/Jonathan Galea Portfolio_Page_395.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_401.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_405.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_408.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_433.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_434.jpg" alt="Gallery Image">
+  </div>
+
+  <div class="tags">
+    <span>UI Design</span> <span>Interface Guidelines</span> <span>Digital Design</span>
+  </div>
+
+</section>
+
+<footer>
+  <p>© Jonathan Galea</p>
+</footer>
+
+<script>
+const reveals = document.querySelectorAll('.reveal');
+window.addEventListener('load', () => { reveals.forEach(el => el.classList.add('active')); });
+window.addEventListener('scroll', () => {
+  reveals.forEach(el => {
+    const top = el.getBoundingClientRect().top;
+    if (top < window.innerHeight - 100) { el.classList.add('active'); }
+  });
+});
+</script>
+</body></html>

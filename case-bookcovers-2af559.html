@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Français – Niveau Intermédiaire | Jonathan Galea</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">← Back to Portfolio</a>
+  </div>
+</nav>
+
+<!-- Hero Image -->
+<img src="images/Jonathan Galea Portfolio_Page_007.jpg" class="case-hero reveal" alt="Hero Image">
+
+<section class="case reveal">
+
+  <h1>Français – Niveau Intermédiaire</h1>
+
+  <div class="meta">
+    <div>
+      <strong>Client</strong>
+      <p>University of Malta</p>
+    </div>
+    <div>
+      <strong>Role</strong>
+      <p>Art Director, Graphic Designer, Cover Illustrator & Interior Layout Designer</p>
+    </div>
+    <div>
+      <strong>Year</strong>
+      <p>2003</p>
+    </div>
+  </div>
+
+  <h3>The Challenge</h3>
+  <p class="desc">
+    Create a visually engaging and modern cover (and supporting interior layout) for an intermediate-level French language textbook aimed at secondary school students in Malta. The design needed to feel fresh and inviting while clearly communicating the subject matter and level, avoiding the typical dry or overly academic look common in language textbooks.
+  </p>
+
+  <h3>The Process</h3>
+  <p class="desc">
+    I led the full artistic direction for the book. Starting with concept development, I explored imagery that evokes French culture, language learning, and personal growth. The chosen direction features a contemplative photographic scene with strong color treatment. I then developed the complete cover design including typography hierarchy and executed the interior page layout system to ensure consistency, readability, and visual interest throughout the book.
+  </p>
+  <div class="process-images">
+  </div>
+
+  <h3>The Solution</h3>
+  <p class="desc">
+    A clean, contemporary cover design with a thoughtful photographic image paired with bold, modern typography. The interior was carefully structured with a clear grid system, well-balanced text and image placement, and consistent visual elements to support effective language learning.
+  </p>
+
+  <h3>Results / Impact</h3>
+  <p class="desc">
+    The book was successfully published and adopted for intermediate French studies. The design helped make the learning material more approachable and visually appealing to students.
+  </p>
+
+  <h3>Gallery</h3>
+  <div class="case-grid">
+    <img src="images/Jonathan Galea Portfolio_Page_007.jpg" alt="Gallery Image">
+  </div>
+
+  <div class="tags">
+    <span>Book Design</span> <span>Art Direction</span> <span>Editorial Design</span> <span>Language Learning</span> <span>Interior Layout</span> <span>Print Design</span>
+  </div>
+
+</section>
+
+<footer>
+  <p>© Jonathan Galea</p>
+</footer>
+
+<script>
+const reveals = document.querySelectorAll('.reveal');
+window.addEventListener('load', () => { reveals.forEach(el => el.classList.add('active')); });
+window.addEventListener('scroll', () => {
+  reveals.forEach(el => {
+    const top = el.getBoundingClientRect().top;
+    if (top < window.innerHeight - 100) { el.classList.add('active'); }
+  });
+});
+</script>
+</body></html>

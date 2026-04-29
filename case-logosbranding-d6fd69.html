@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atelier 10 | Jonathan Galea</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">← Back to Portfolio</a>
+  </div>
+</nav>
+
+<!-- Hero Image -->
+<img src="images/Jonathan Galea Portfolio_Page_017.jpg" class="case-hero reveal" alt="Hero Image">
+
+<section class="case reveal">
+
+  <h1>Atelier 10</h1>
+
+  <div class="meta">
+    <div>
+      <strong>Client</strong>
+      <p>Atelier 10</p>
+    </div>
+    <div>
+      <strong>Role</strong>
+      <p>Graphic Designer</p>
+    </div>
+    <div>
+      <strong>Year</strong>
+      <p>2021</p>
+    </div>
+  </div>
+
+  <h3>The Challenge</h3>
+  <p class="desc">
+    Design a sophisticated, artistic logo for a creative studio that focus on Intaglio printing and Lithography.
+  </p>
+
+  <h3>The Process</h3>
+  <p class="desc">
+    Created two variations of an abstract “A” mark built from flowing, interwoven lines incorporating the handwheel.
+  </p>
+  <div class="process-images">
+  </div>
+
+  <h3>The Solution</h3>
+  <p class="desc">
+    Elegant black and white monogram-style logos that feel both modern and artistic.
+  </p>
+
+  <h3>Results / Impact</h3>
+  <p class="desc">
+    The logo was successfully adopted by Atelier 10 as their official brand mark. Its clean yet detailed design effectively communicates the studio’s creative expertise and has been used consistently across their stationery, digital presence, and promotional materials, helping to establish a strong and memorable visual identity for the studio.
+  </p>
+
+  <h3>Gallery</h3>
+  <div class="case-grid">
+    <img src="images/Jonathan Galea Portfolio_Page_017.jpg" alt="Gallery Image">
+  </div>
+
+  <div class="tags">
+    <span>Logo Design</span> <span>Branding</span>
+  </div>
+
+</section>
+
+<footer>
+  <p>© Jonathan Galea</p>
+</footer>
+
+<script>
+const reveals = document.querySelectorAll('.reveal');
+window.addEventListener('load', () => { reveals.forEach(el => el.classList.add('active')); });
+window.addEventListener('scroll', () => {
+  reveals.forEach(el => {
+    const top = el.getBoundingClientRect().top;
+    if (top < window.innerHeight - 100) { el.classList.add('active'); }
+  });
+});
+</script>
+</body></html>

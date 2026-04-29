@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malta Institute of Accountants | Jonathan Galea</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">← Back to Portfolio</a>
+  </div>
+</nav>
+
+<!-- Hero Image -->
+<img src="images/Jonathan Galea Portfolio_Page_177.jpg" class="case-hero reveal" alt="Hero Image">
+
+<section class="case reveal">
+
+  <h1>Malta Institute of Accountants</h1>
+
+  <div class="meta">
+    <div>
+      <strong>Client</strong>
+      <p>The Malta Institute of Accountants</p>
+    </div>
+    <div>
+      <strong>Role</strong>
+      <p>Brand Guidelines Designer</p>
+    </div>
+    <div>
+      <strong>Year</strong>
+      <p>2016</p>
+    </div>
+  </div>
+
+  <h3>The Challenge</h3>
+  <p class="desc">
+    Develop comprehensive style guidelines to ensure consistent application of the institute’s visual identity across all materials.
+  </p>
+
+  <h3>The Process</h3>
+  <p class="desc">
+    Documented correct logo usage, typography, color palette, stationery, signage, digital templates, and various applications.
+  </p>
+  <div class="process-images">
+  </div>
+
+  <h3>The Solution</h3>
+  <p class="desc">
+    Clear, well-structured brand bible covering all essential brand touchpoints.
+  </p>
+
+  <h3>Results / Impact</h3>
+  <p class="desc">
+    Provided the Institute with a professional tool to maintain brand consistency.
+  </p>
+
+  <h3>Gallery</h3>
+  <div class="case-grid">
+    <img src="images/Jonathan Galea Portfolio_Page_177.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_189.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_191.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_203.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_245.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_251.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_260.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_283.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_290.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_307.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_321.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_332.jpg" alt="Gallery Image">
+  </div>
+
+  <div class="tags">
+    <span>Brand Guidelines</span> <span>Style Guide</span> <span>Corporate Identity</span>
+  </div>
+
+</section>
+
+<footer>
+  <p>© Jonathan Galea</p>
+</footer>
+
+<script>
+const reveals = document.querySelectorAll('.reveal');
+window.addEventListener('load', () => { reveals.forEach(el => el.classList.add('active')); });
+window.addEventListener('scroll', () => {
+  reveals.forEach(el => {
+    const top = el.getBoundingClientRect().top;
+    if (top < window.innerHeight - 100) { el.classList.add('active'); }
+  });
+});
+</script>
+</body></html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3a Global – 10th Anniversary Brochure | Jonathan Galea</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">← Back to Portfolio</a>
+  </div>
+</nav>
+
+<!-- Hero Image -->
+<img src="images/Jonathan Galea Portfolio_Page_443.jpg" class="case-hero reveal" alt="Hero Image">
+
+<section class="case reveal">
+
+  <h1>3a Global – 10th Anniversary Brochure</h1>
+
+  <div class="meta">
+    <div>
+      <strong>Client</strong>
+      <p>3a Global</p>
+    </div>
+    <div>
+      <strong>Role</strong>
+      <p>Graphic Designer</p>
+    </div>
+    <div>
+      <strong>Year</strong>
+      <p>2015</p>
+    </div>
+  </div>
+
+  <h3>The Challenge</h3>
+  <p class="desc">
+    Design a celebratory, professional, and visually engaging brochure to mark 3a Global’s 10th anniversary. The publication needed to showcase the company’s journey, highlight key achievements, present membership facts, feature testimonials, and promote the benefits of membership to attract new partners in the investment migration and financial services industry.
+  </p>
+
+  <h3>The Process</h3>
+  <p class="desc">
+    I created a vibrant yet professional multi-page layout using a bold blue and red color scheme. The design incorporated a strong timeline element, infographics showing membership growth and global reach, member testimonials with portraits, and clear calls-to-action. I balanced celebratory imagery (such as the anniversary logo and flying birds) with structured, easy-to-read content sections.
+  </p>
+  <div class="process-images">
+  </div>
+
+  <h3>The Solution</h3>
+  <p class="desc">
+    A dynamic 10th anniversary brochure featuring a clean grid system, impactful photography, custom infographics, and strong typographic hierarchy. The design successfully conveys growth, community, and professional excellence while maintaining a trustworthy corporate tone.
+  </p>
+
+  <h3>Results / Impact</h3>
+  <p class="desc">
+    The brochure was launched as part of 3a Global’s 10th anniversary celebrations. It effectively communicated the company’s success over the decade and served as a powerful marketing tool to recruit new members and strengthen relationships with existing partners.
+  </p>
+
+  <h3>Gallery</h3>
+  <div class="case-grid">
+    <img src="images/Jonathan Galea Portfolio_Page_443.jpg" alt="Gallery Image">
+  </div>
+
+  <div class="tags">
+    <span>Brochure Design</span> <span>Anniversary Brochure</span> <span>Corporate Design</span> <span>Infographics</span> <span>Marketing Collateral</span> <span>Editorial Design</span>
+  </div>
+
+</section>
+
+<footer>
+  <p>© Jonathan Galea</p>
+</footer>
+
+<script>
+const reveals = document.querySelectorAll('.reveal');
+window.addEventListener('load', () => { reveals.forEach(el => el.classList.add('active')); });
+window.addEventListener('scroll', () => {
+  reveals.forEach(el => {
+    const top = el.getBoundingClientRect().top;
+    if (top < window.innerHeight - 100) { el.classList.add('active'); }
+  });
+});
+</script>
+</body></html>

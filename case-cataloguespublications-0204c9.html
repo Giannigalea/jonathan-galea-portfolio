@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>StampaStampa – Team Print Proposal | Jonathan Galea</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">← Back to Portfolio</a>
+  </div>
+</nav>
+
+<!-- Hero Image -->
+<img src="images/Jonathan Galea Portfolio_Page_065.jpg" class="case-hero reveal" alt="Hero Image">
+
+<section class="case reveal">
+
+  <h1>StampaStampa – Team Print Proposal</h1>
+
+  <div class="meta">
+    <div>
+      <strong>Client</strong>
+      <p>Atelier 10</p>
+    </div>
+    <div>
+      <strong>Role</strong>
+      <p>Designer</p>
+    </div>
+    <div>
+      <strong>Year</strong>
+      <p>2017</p>
+    </div>
+  </div>
+
+  <h3>The Challenge</h3>
+  <p class="desc">
+    Design a compelling proposal document and supporting materials to promote a specialized team printmaking workshop. The materials needed to clearly explain the workshop’s unique collaborative process, emphasize learning through practice, and appeal to both emerging and experienced printmakers.
+  </p>
+
+  <h3>The Process</h3>
+  <p class="desc">
+    I led the full creative direction for the proposal. This included designing the cover with a strong typographic treatment and bracket motif, creating the interior layout, and developing clear sections that explain the workshop methodology from linocut and lino printing techniques to improvisation, documentation, feedback, and team collaboration. I incorporated candid workshop photography to bring the experience to life.
+  </p>
+  <div class="process-images">
+  </div>
+
+  <h3>The Solution</h3>
+  <p class="desc">
+    A clean, modern proposal document with a distinctive orange and white color scheme, bold typography, and well-structured content. The design effectively communicates the hands-on, collaborative, and educational nature of the StampaStampa workshop through thoughtful layout, hierarchy, and visual storytelling.
+  </p>
+
+  <h3>Results / Impact</h3>
+  <p class="desc">
+    The proposal was used to successfully promote and recruit participants for the Stampa Stampa printmaking workshops. The professional and engaging design helped convey the quality and unique value of the program, contributing to positive participant feedback and stronger workshop attendance.
+  </p>
+
+  <h3>Gallery</h3>
+  <div class="case-grid">
+    <img src="images/Jonathan Galea Portfolio_Page_065.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_066.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_067.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_068.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_069.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_070.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_071.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_072.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_073.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_074.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_075.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_076.jpg" alt="Gallery Image">
+  </div>
+
+  <div class="tags">
+    <span>Proposal Design</span> <span>Workshop Promotion</span> <span>Printmaking</span> <span>Editorial Design</span> <span>Art Direction</span>
+  </div>
+
+</section>
+
+<footer>
+  <p>© Jonathan Galea</p>
+</footer>
+
+<script>
+const reveals = document.querySelectorAll('.reveal');
+window.addEventListener('load', () => { reveals.forEach(el => el.classList.add('active')); });
+window.addEventListener('scroll', () => {
+  reveals.forEach(el => {
+    const top = el.getBoundingClientRect().top;
+    if (top < window.innerHeight - 100) { el.classList.add('active'); }
+  });
+});
+</script>
+</body></html>

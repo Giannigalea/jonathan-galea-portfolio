@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movver | Jonathan Galea</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">← Back to Portfolio</a>
+  </div>
+</nav>
+
+<!-- Hero Image -->
+<img src="images/Jonathan Galea Portfolio_Page_020.jpg" class="case-hero reveal" alt="Hero Image">
+
+<section class="case reveal">
+
+  <h1>Movver</h1>
+
+  <div class="meta">
+    <div>
+      <strong>Client</strong>
+      <p>Movver Logistics</p>
+    </div>
+    <div>
+      <strong>Role</strong>
+      <p>Brand Identity Designer</p>
+    </div>
+    <div>
+      <strong>Year</strong>
+      <p>2016</p>
+    </div>
+  </div>
+
+  <h3>The Challenge</h3>
+  <p class="desc">
+    Create a modern, dynamic logo and supporting brand elements for a global logistics and transportation company that conveys movement, precision, technology, and connectivity.
+  </p>
+
+  <h3>The Process</h3>
+  <p class="desc">
+    Extensive concept exploration (“Concept Metamorphosis”). Developed multiple iterations of an abstract geometric mark combining letter “M”, directional arrows, and diamond shapes. Tested various color variations and layout options.
+  </p>
+  <div class="process-images">
+  </div>
+
+  <h3>The Solution</h3>
+  <p class="desc">
+    A clean, abstract logo mark suggesting forward motion, paired with a modern sans-serif wordmark and comprehensive usage guidelines.
+  </p>
+
+  <h3>Results / Impact</h3>
+  <p class="desc">
+    Delivered a complete, flexible brand identity suitable for both digital and print applications.
+  </p>
+
+  <h3>Gallery</h3>
+  <div class="case-grid">
+    <img src="images/Jonathan Galea Portfolio_Page_020.jpg" alt="Gallery Image">
+  </div>
+
+  <div class="tags">
+    <span>Logo Design</span> <span>Branding</span> <span>Corporate Identity</span>
+  </div>
+
+</section>
+
+<footer>
+  <p>© Jonathan Galea</p>
+</footer>
+
+<script>
+const reveals = document.querySelectorAll('.reveal');
+window.addEventListener('load', () => { reveals.forEach(el => el.classList.add('active')); });
+window.addEventListener('scroll', () => {
+  reveals.forEach(el => {
+    const top = el.getBoundingClientRect().top;
+    if (top < window.innerHeight - 100) { el.classList.add('active'); }
+  });
+});
+</script>
+</body></html>

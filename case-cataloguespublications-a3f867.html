@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tactile – 12 Concealed Sculptures Catalogue | Jonathan Galea</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">← Back to Portfolio</a>
+  </div>
+</nav>
+
+<!-- Hero Image -->
+<img src="images/Jonathan Galea Portfolio_Page_023.jpg" class="case-hero reveal" alt="Hero Image">
+
+<section class="case reveal">
+
+  <h1>Tactile – 12 Concealed Sculptures Catalogue</h1>
+
+  <div class="meta">
+    <div>
+      <strong>Client</strong>
+      <p>University of Malta / Tactile Project</p>
+    </div>
+    <div>
+      <strong>Role</strong>
+      <p>Catalogue Designer</p>
+    </div>
+    <div>
+      <strong>Year</strong>
+      <p>2018</p>
+    </div>
+  </div>
+
+  <h3>The Challenge</h3>
+  <p class="desc">
+    Design a cohesive exhibition catalogue that complements the poster identity and properly presents the sculptures and artist statements.
+  </p>
+
+  <h3>The Process</h3>
+  <p class="desc">
+    Extended the “tactile” droplet logo and minimalist aesthetic into a multi-page layout with strong photography and clean typography.
+  </p>
+  <div class="process-images">
+  </div>
+
+  <h3>The Solution</h3>
+  <p class="desc">
+    Elegant catalogue with excellent image treatment and readable text hierarchy.
+  </p>
+
+  <h3>Results / Impact</h3>
+  <p class="desc">
+    Successfully documented the collaborative art exhibition.
+  </p>
+
+  <h3>Gallery</h3>
+  <div class="case-grid">
+    <img src="images/Jonathan Galea Portfolio_Page_021.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_023.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_024.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_025.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_035.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_038.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_039.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_056.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_057.jpg" alt="Gallery Image">
+  </div>
+
+  <div class="tags">
+    <span>Catalogue Design</span> <span>Exhibition</span> <span>Editorial Design</span>
+  </div>
+
+</section>
+
+<footer>
+  <p>© Jonathan Galea</p>
+</footer>
+
+<script>
+const reveals = document.querySelectorAll('.reveal');
+window.addEventListener('load', () => { reveals.forEach(el => el.classList.add('active')); });
+window.addEventListener('scroll', () => {
+  reveals.forEach(el => {
+    const top = el.getBoundingClientRect().top;
+    if (top < window.innerHeight - 100) { el.classList.add('active'); }
+  });
+});
+</script>
+</body></html>

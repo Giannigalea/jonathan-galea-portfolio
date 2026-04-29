@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tactile – 12 Concealed Sculptures | Jonathan Galea</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">← Back to Portfolio</a>
+  </div>
+</nav>
+
+<!-- Hero Image -->
+<img src="images/Jonathan Galea Portfolio_Page_012.jpg" class="case-hero reveal" alt="Hero Image">
+
+<section class="case reveal">
+
+  <h1>Tactile – 12 Concealed Sculptures</h1>
+
+  <div class="meta">
+    <div>
+      <strong>Client</strong>
+      <p>University of Malta / Valletta Design Cluster / EU Japan Fest</p>
+    </div>
+    <div>
+      <strong>Role</strong>
+      <p>Poster & Exhibition Designer</p>
+    </div>
+    <div>
+      <strong>Year</strong>
+      <p>2018</p>
+    </div>
+  </div>
+
+  <h3>The Challenge</h3>
+  <p class="desc">
+    Create a striking poster and visual identity for an exhibition of collaborative concealed sculptures that emphasizes touch, form, and the invisible.
+  </p>
+
+  <h3>The Process</h3>
+  <p class="desc">
+    Developed a unique organic logo mark shaped like a droplet/teardrop containing the word “tactile”. Applied it consistently across poster and related materials.
+  </p>
+  <div class="process-images">
+  </div>
+
+  <h3>The Solution</h3>
+  <p class="desc">
+    Minimal black poster with a large, elegant white logo and clean typography, evoking mystery and tactility.
+  </p>
+
+  <h3>Results / Impact</h3>
+  <p class="desc">
+    Became the main visual for the exhibition held at the University of Malta (5 Oct – 5 Nov 2018).
+  </p>
+
+  <h3>Gallery</h3>
+  <div class="case-grid">
+    <img src="images/Jonathan Galea Portfolio_Page_012.jpg" alt="Gallery Image">
+  </div>
+
+  <div class="tags">
+    <span>Poster Design</span> <span>Exhibition Design</span> <span>Cultural</span>
+  </div>
+
+</section>
+
+<footer>
+  <p>© Jonathan Galea</p>
+</footer>
+
+<script>
+const reveals = document.querySelectorAll('.reveal');
+window.addEventListener('load', () => { reveals.forEach(el => el.classList.add('active')); });
+window.addEventListener('scroll', () => {
+  reveals.forEach(el => {
+    const top = el.getBoundingClientRect().top;
+    if (top < window.innerHeight - 100) { el.classList.add('active'); }
+  });
+});
+</script>
+</body></html>

@@ -1,0 +1,13 @@
+# Admin/dev files — do not publish to the repo
+admin.py
+generate_missing.py
+__pycache__/
+*.pyc
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
+.idea/

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iMprint IV – Gráfika: Of Form and Image | Jonathan Galea</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">← Back to Portfolio</a>
+  </div>
+</nav>
+
+<!-- Hero Image -->
+<img src="images/Jonathan Galea Portfolio_Page_077.jpg" class="case-hero reveal" alt="Hero Image">
+
+<section class="case reveal">
+
+  <h1>iMprint IV – Gráfika: Of Form and Image</h1>
+
+  <div class="meta">
+    <div>
+      <strong>Client</strong>
+      <p>Gráfika / Printmaking Collective</p>
+    </div>
+    <div>
+      <strong>Role</strong>
+      <p>Exhibition Catalogue Designer & Graphic Designer</p>
+    </div>
+    <div>
+      <strong>Year</strong>
+      <p>2019</p>
+    </div>
+  </div>
+
+  <h3>The Challenge</h3>
+  <p class="desc">
+    Design a sophisticated exhibition catalogue for iMprint IV, a group show focused on original printmaking and the relationship between form and image. The publication needed to respectfully present the participating artists’ works while maintaining a strong, cohesive visual identity that reflects the artistic and technical nature of printmaking.
+  </p>
+
+  <h3>The Process</h3>
+  <p class="desc">
+    I created a minimalist, high-contrast design language using a bold black cover with the title “iMprint IV” in a striking typographic treatment. Inside, I developed a clean grid system that allows the artworks to breathe, with careful attention to image placement, captions, and artist biographies. The design balances dramatic black-and-white aesthetics with readable typography to honor the graphic quality of the prints.
+  </p>
+  <div class="process-images">
+  </div>
+
+  <h3>The Solution</h3>
+  <p class="desc">
+    A sleek, elegant catalogue featuring a powerful black cover with white typography and a dynamic diagonal element. The interior uses generous white space, high-quality reproductions of the prints, and consistent hierarchy to create a premium presentation of the exhibition. The design successfully bridges contemporary graphic design with traditional printmaking values.
+  </p>
+
+  <h3>Results / Impact</h3>
+  <p class="desc">
+    The catalogue was successfully produced and distributed for the iMprint IV exhibition. It effectively documented the participating artists’ works (including pieces by Horst Janssen and others) and received positive feedback for its clean, contemporary presentation that enhanced the perceived value of the show.
+  </p>
+
+  <h3>Gallery</h3>
+  <div class="case-grid">
+    <img src="images/Jonathan Galea Portfolio_Page_077.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_087.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_093.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_108.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_119.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_127.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_158.jpg" alt="Gallery Image">
+  </div>
+
+  <div class="tags">
+    <span>Exhibition Catalogue</span> <span>Printmaking</span> <span>Editorial Design</span> <span>Art Publication</span> <span>Cultural Design</span>
+  </div>
+
+</section>
+
+<footer>
+  <p>© Jonathan Galea</p>
+</footer>
+
+<script>
+const reveals = document.querySelectorAll('.reveal');
+window.addEventListener('load', () => { reveals.forEach(el => el.classList.add('active')); });
+window.addEventListener('scroll', () => {
+  reveals.forEach(el => {
+    const top = el.getBoundingClientRect().top;
+    if (top < window.innerHeight - 100) { el.classList.add('active'); }
+  });
+});
+</script>
+</body></html>

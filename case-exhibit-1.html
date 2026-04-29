@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exhibition Curation | Jonathan Galea</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">← Back to Portfolio</a>
+  </div>
+</nav>
+
+<!-- Hero Image -->
+<img src="images/Jonathan%20Galea%20Portfolio_Page_021.jpg" class="case-hero reveal" alt="Hero Image">
+
+<section class="case reveal">
+
+  <h1>Spatial Narratives</h1>
+
+  <div class="meta">
+    <div>
+      <strong>Client</strong>
+      <p>Modern Art Gallery</p>
+    </div>
+    <div>
+      <strong>Role</strong>
+      <p>Exhibition Designer</p>
+    </div>
+    <div>
+      <strong>Year</strong>
+      <p>2024</p>
+    </div>
+  </div>
+
+  <h3>The Challenge</h3>
+  <p class="desc">
+    This exhibition project bridged 2D graphic design with 3D spatial curation. It required designing 
+    the environmental graphics, wayfinding, and promotional materials for a contemporary art installation spanning 5 rooms.
+  </p>
+
+  <h3>The Process</h3>
+  <p class="desc">
+    Translating 2D visual elements into a 3D space involved creating physical mockups and digital renders of the gallery space. 
+    A significant portion of development was dedicated to testing wayfinding legibility from multiple sightlines within the venue.
+  </p>
+  <div class="process-images">
+    <!-- Place process/iteration images here -->
+    <p style="color:var(--text-muted); font-style:italic; grid-column: 1 / -1;">(Process imagery placeholders)</p>
+  </div>
+
+  <h3>The Solution</h3>
+  <p class="desc">
+    The spatial design focuses on minimal intervention, using large-scale typographic projections 
+    and subtle floor decals to guide visitors. The printed matter mirrors the spatial logic, 
+    using inventive folding techniques that reveal information dynamically.
+  </p>
+
+  <h3>Results / Impact</h3>
+  <p class="desc">
+    The seamless integration of wayfinding with the exhibition theme created a highly immersive experience, resulting in record-breaking opening week attendances and wide coverage in design press.
+  </p>
+
+  <h3>Gallery</h3>
+  <div class="case-grid">
+    <img src="images/Jonathan%20Galea%20Portfolio_Page_021.jpg" alt="Exhibition View 1">
+  </div>
+
+  <div class="tags">
+    <span>Exhibition Design</span>
+    <span>Spatial Typography</span>
+    <span>Wayfinding</span>
+  </div>
+
+</section>
+
+<footer>
+  <p>© Jonathan Galea</p>
+</footer>
+
+<script>
+/* REVEAL */
+const reveals = document.querySelectorAll('.reveal');
+window.addEventListener('load', () => {
+  reveals.forEach(el => el.classList.add('active'));
+});
+window.addEventListener('scroll', () => {
+  reveals.forEach(el => {
+    const top = el.getBoundingClientRect().top;
+    if (top < window.innerHeight - 100) {
+      el.classList.add('active');
+    }
+  });
+});
+</script>
+
+</body>
+</html>

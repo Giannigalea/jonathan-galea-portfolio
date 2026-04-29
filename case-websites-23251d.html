@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smoochie – Fresh Fruit Drinks | Jonathan Galea</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">← Back to Portfolio</a>
+  </div>
+</nav>
+
+<!-- Hero Image -->
+<img src="images/Jonathan Galea Portfolio_Page_464.jpg" class="case-hero reveal" alt="Hero Image">
+
+<section class="case reveal">
+
+  <h1>Smoochie – Fresh Fruit Drinks</h1>
+
+  <div class="meta">
+    <div>
+      <strong>Client</strong>
+      <p>Smoochie</p>
+    </div>
+    <div>
+      <strong>Role</strong>
+      <p>Website Designer</p>
+    </div>
+    <div>
+      <strong>Year</strong>
+      <p>2013</p>
+    </div>
+  </div>
+
+  <h3>The Challenge</h3>
+  <p class="desc">
+    Design a vibrant, appetizing, and user-friendly website for Smoochie, a fresh fruit drinks brand. The site needed to highlight the natural, healthy, and tempting qualities of the products while making it easy for customers to learn about the brand, browse drinks, and make purchases.
+  </p>
+
+  <h3>The Process</h3>
+  <p class="desc">
+    I focused on creating a fresh and dynamic visual experience using high-quality, mouth-watering product photography. The design features a clean navigation structure with sections such as “Stuff We Make”, “Get to Know Us”, “Fresh & Good”, and “News & Fun”. Special attention was given to responsive design, ensuring the site looks great on desktop, tablet, and mobile devices.
+  </p>
+  <div class="process-images">
+  </div>
+
+  <h3>The Solution</h3>
+  <p class="desc">
+    A colorful and energetic website with bold photography of fresh raspberries and fruit drinks, playful yet clean typography, and an appetizing layout. The design successfully captures the fresh, healthy, and fun personality of the Smoochie brand while providing a smooth user experience across all devices.
+  </p>
+
+  <h3>Results / Impact</h3>
+  <p class="desc">
+    The website effectively showcases Smoochie’s product range and brand personality online. It helps attract customers with its vibrant visuals and supports the brand’s goal of presenting fresh fruit temptations “in a bottle”.
+  </p>
+
+  <h3>Gallery</h3>
+  <div class="case-grid">
+    <img src="images/Jonathan Galea Portfolio_Page_464.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_465.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_466.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_467.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_468.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_469.jpg" alt="Gallery Image">
+  </div>
+
+  <div class="tags">
+    <span>Website Design</span> <span>Responsive Design</span> <span>Food & Beverage</span> <span>E-commerce</span> <span>Digital Design</span> <span>Branding</span>
+  </div>
+
+</section>
+
+<footer>
+  <p>© Jonathan Galea</p>
+</footer>
+
+<script>
+const reveals = document.querySelectorAll('.reveal');
+window.addEventListener('load', () => { reveals.forEach(el => el.classList.add('active')); });
+window.addEventListener('scroll', () => {
+  reveals.forEach(el => {
+    const top = el.getBoundingClientRect().top;
+    if (top < window.innerHeight - 100) { el.classList.add('active'); }
+  });
+});
+</script>
+</body></html>

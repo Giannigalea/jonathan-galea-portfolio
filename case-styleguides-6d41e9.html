@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movver – Brand Style Guidelines | Jonathan Galea</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">← Back to Portfolio</a>
+  </div>
+</nav>
+
+<!-- Hero Image -->
+<img src="images/Jonathan Galea Portfolio_Page_339.jpg" class="case-hero reveal" alt="Hero Image">
+
+<section class="case reveal">
+
+  <h1>Movver – Brand Style Guidelines</h1>
+
+  <div class="meta">
+    <div>
+      <strong>Client</strong>
+      <p>Movver Logistics</p>
+    </div>
+    <div>
+      <strong>Role</strong>
+      <p>Art Director & Brand Guidelines Designer</p>
+    </div>
+    <div>
+      <strong>Year</strong>
+      <p>2016</p>
+    </div>
+  </div>
+
+  <h3>The Challenge</h3>
+  <p class="desc">
+    Following the creation of the new Movver logo, develop a comprehensive set of brand style guidelines to ensure consistent and professional application of the visual identity across all touchpoints. The guidelines needed to clearly define logo usage, color variations, typography, layouts, and applications for a global logistics company.
+  </p>
+
+  <h3>The Process</h3>
+  <p class="desc">
+    I designed a detailed brand bible that expanded on the earlier logo development (“Concept Metamorphosis”). This included documenting primary and secondary logo versions, color specifications (CMYK, RGB, Pantone), correct and incorrect usage rules, typography hierarchy (including sans-serif options), horizontal and vertical layouts, and various real-world applications.
+  </p>
+  <div class="process-images">
+  </div>
+
+  <h3>The Solution</h3>
+  <p class="desc">
+    A clean, well-structured brand guidelines document featuring multiple logo lockups, precise color palettes, detailed do’s and don’ts, and practical examples of usage across stationery, marketing materials, and digital applications. The design maintains a modern, dynamic, and professional tone suitable for the logistics sector.
+  </p>
+
+  <h3>Results / Impact</h3>
+  <p class="desc">
+    The Movver Brand Style Guidelines provided the client with a clear, professional reference tool that ensures visual consistency across all future communications. This helped strengthen the Movver brand identity and supported the company’s goal of presenting a unified, modern image in a competitive global market.
+  </p>
+
+  <h3>Gallery</h3>
+  <div class="case-grid">
+    <img src="images/Jonathan Galea Portfolio_Page_339.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_344.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_345.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_346.jpg" alt="Gallery Image">
+    <img src="images/Jonathan Galea Portfolio_Page_347.jpg" alt="Gallery Image">
+  </div>
+
+  <div class="tags">
+    <span>Brand Guidelines</span> <span>Style Guide</span> <span>Brand Identity</span> <span>Corporate Identity</span> <span>Logo System</span> <span>Logistics</span>
+  </div>
+
+</section>
+
+<footer>
+  <p>© Jonathan Galea</p>
+</footer>
+
+<script>
+const reveals = document.querySelectorAll('.reveal');
+window.addEventListener('load', () => { reveals.forEach(el => el.classList.add('active')); });
+window.addEventListener('scroll', () => {
+  reveals.forEach(el => {
+    const top = el.getBoundingClientRect().top;
+    if (top < window.innerHeight - 100) { el.classList.add('active'); }
+  });
+});
+</script>
+</body></html>

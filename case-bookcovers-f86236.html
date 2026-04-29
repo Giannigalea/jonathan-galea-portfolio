@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>On Becoming an Effective Teacher | Jonathan Galea</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">← Back to Portfolio</a>
+  </div>
+</nav>
+
+<!-- Hero Image -->
+<img src="images/Jonathan Galea Portfolio_Page_002.jpg" class="case-hero reveal" alt="Hero Image">
+
+<section class="case reveal">
+
+  <h1>On Becoming an Effective Teacher</h1>
+
+  <div class="meta">
+    <div>
+      <strong>Client</strong>
+      <p>Christopher Bezzina / University of Malta</p>
+    </div>
+    <div>
+      <strong>Role</strong>
+      <p>Art Director, Graphic Designer, Cover Illustrator & Interior Layout Designer</p>
+    </div>
+    <div>
+      <strong>Year</strong>
+      <p>2001</p>
+    </div>
+  </div>
+
+  <h3>The Challenge</h3>
+  <p class="desc">
+    Create a warm, inspiring cover for a handbook aimed at new and aspiring teachers, conveying classroom management, professional growth, and the human side of teaching.
+  </p>
+
+  <h3>The Process</h3>
+  <p class="desc">
+    Focused on symbolic imagery of teaching and learning. Combined photographic elements with vibrant color overlays and bold typography to reflect energy and dedication in education.
+  </p>
+  <div class="process-images">
+  </div>
+
+  <h3>The Solution</h3>
+  <p class="desc">
+    A colorful, engaging cover featuring classroom scenes with strong title treatment in red and yellow, creating an inviting and motivational feel.
+  </p>
+
+  <h3>Results / Impact</h3>
+  <p class="desc">
+    Well-received by educators and used as the primary cover for the introductory handbook.
+  </p>
+
+  <h3>Gallery</h3>
+  <div class="case-grid">
+    <img src="images/Jonathan Galea Portfolio_Page_002.jpg" alt="Gallery Image">
+  </div>
+
+  <div class="tags">
+    <span>Book Cover Design</span> <span>Education</span> <span>Editorial Design</span>
+  </div>
+
+</section>
+
+<footer>
+  <p>© Jonathan Galea</p>
+</footer>
+
+<script>
+const reveals = document.querySelectorAll('.reveal');
+window.addEventListener('load', () => { reveals.forEach(el => el.classList.add('active')); });
+window.addEventListener('scroll', () => {
+  reveals.forEach(el => {
+    const top = el.getBoundingClientRect().top;
+    if (top < window.innerHeight - 100) { el.classList.add('active'); }
+  });
+});
+</script>
+</body></html>

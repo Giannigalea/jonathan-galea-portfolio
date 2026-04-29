@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intermediate Pure Mathematics – Second Edition | Jonathan Galea</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">← Back to Portfolio</a>
+  </div>
+</nav>
+
+<!-- Hero Image -->
+<img src="images/Jonathan Galea Portfolio_Page_001.jpg" class="case-hero reveal" alt="Hero Image">
+
+<section class="case reveal">
+
+  <h1>Intermediate Pure Mathematics – Second Edition</h1>
+
+  <div class="meta">
+    <div>
+      <strong>Client</strong>
+      <p>Cettina Gauci & Kevin Asciak - University of Malta</p>
+    </div>
+    <div>
+      <strong>Role</strong>
+      <p>Art Director, Graphic Designer, Cover Illustrator & Interior Layout Designer</p>
+    </div>
+    <div>
+      <strong>Year</strong>
+      <p>2001</p>
+    </div>
+  </div>
+
+  <h3>The Challenge</h3>
+  <p class="desc">
+    Design an engaging yet academic cover for an intermediate-level pure mathematics textbook aimed at students preparing for MATSEC or equivalent UK IGCSE examinations. The cover needed to feel modern, approachable, and visually represent mathematical depth and precision without being intimidating.
+  </p>
+
+  <h3>The Process</h3>
+  <p class="desc">
+    I was responsible for the entire artistic direction of the book. This included developing the cover concept from initial ideation through multiple iterations, creating the hypnotic red and orange vortex illustration, refining typography hierarchy, and designing the full interior layout. Explored mathematical motifs such as spirals, fractals, and geometric patterns to symbolize “diving deeper” into complex topics while maintaining clarity and academic credibility.
+  </p>
+  <div class="process-images">
+  </div>
+
+  <h3>The Solution</h3>
+  <p class="desc">
+    A dynamic swirling vortex design that draws the viewer’s eye inward, paired with strong, clean typography on the cover. The interior was designed with clear visual hierarchy, consistent layout system, and student-friendly formatting to support learning.
+  </p>
+
+  <h3>Results / Impact</h3>
+  <p class="desc">
+    Successfully used as the official cover and interior design for the Second Edition. The comprehensive design approach helped make the textbook more visually appealing and easier to navigate for students while maintaining a professional educational standard.
+  </p>
+
+  <h3>Gallery</h3>
+  <div class="case-grid">
+    <img src="images/Jonathan Galea Portfolio_Page_001.jpg" alt="Gallery Image">
+  </div>
+
+  <div class="tags">
+    <span>Book Design</span> <span>Art Direction</span> <span>Editorial Design</span> <span>Interior Layout</span> <span>Mathematics</span> <span>Print Design</span>
+  </div>
+
+</section>
+
+<footer>
+  <p>© Jonathan Galea</p>
+</footer>
+
+<script>
+const reveals = document.querySelectorAll('.reveal');
+window.addEventListener('load', () => { reveals.forEach(el => el.classList.add('active')); });
+window.addEventListener('scroll', () => {
+  reveals.forEach(el => {
+    const top = el.getBoundingClientRect().top;
+    if (top < window.innerHeight - 100) { el.classList.add('active'); }
+  });
+});
+</script>
+</body></html>

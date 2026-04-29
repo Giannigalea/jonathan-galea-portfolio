@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Totally Tarantino - Concert | Jonathan Galea</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">← Back to Portfolio</a>
+  </div>
+</nav>
+
+<!-- Hero Image -->
+<img src="images/Jonathan Galea Portfolio_Page_013.jpg" class="case-hero reveal" alt="Hero Image">
+
+<section class="case reveal">
+
+  <h1>Totally Tarantino - Concert</h1>
+
+  <div class="meta">
+    <div>
+      <strong>Client</strong>
+      <p>JOBA Events</p>
+    </div>
+    <div>
+      <strong>Role</strong>
+      <p>Poster Designer & Event Visual Designer</p>
+    </div>
+    <div>
+      <strong>Year</strong>
+      <p>2010</p>
+    </div>
+  </div>
+
+  <h3>The Challenge</h3>
+  <p class="desc">
+    Design a bold, high-impact promotional poster for a live music event featuring Tarantino-inspired themes and a strong rock/alt vibe. The poster needed to stand out in a crowded event scene, capture the edgy energy of the night, and clearly communicate event details while appealing to a young adult audience.
+  </p>
+
+  <h3>The Process</h3>
+  <p class="desc">
+    I created a striking, high-contrast design using a stylized black-and-white portrait of a male figure with intense red accents. The composition draws heavy inspiration from Quentin Tarantino’s iconic movie posters with dramatic cropping, bold typography, and strong graphic elements. I carefully balanced the large portrait with event information, logos, and call-to-action details.
+  </p>
+  <div class="process-images">
+  </div>
+
+  <h3>The Solution</h3>
+  <p class="desc">
+    A powerful red, black, and white poster featuring Tarantino's close-up stylized face, aggressive typography for “TOTALLY TARANTINO”, and clear event information. The design successfully channels a cinematic, rebellious, and energetic mood that perfectly matches the live music event.
+  </p>
+
+  <h3>Results / Impact</h3>
+  <p class="desc">
+    The poster effectively promoted the event held on 6th August at the Greek Theatre, Targa Gap Mosta. It contributed to strong visual branding for JOBA Events and helped create buzz around the Coca-Cola Summer Gigs series.
+  </p>
+
+  <h3>Gallery</h3>
+  <div class="case-grid">
+    <img src="images/Jonathan Galea Portfolio_Page_013.jpg" alt="Gallery Image">
+  </div>
+
+  <div class="tags">
+    <span>Poster Design</span> <span>Event Promotion</span> <span>Music Event</span> <span>Graphic Design</span> <span>Print Design</span> <span>Cinematic Style</span>
+  </div>
+
+</section>
+
+<footer>
+  <p>© Jonathan Galea</p>
+</footer>
+
+<script>
+const reveals = document.querySelectorAll('.reveal');
+window.addEventListener('load', () => { reveals.forEach(el => el.classList.add('active')); });
+window.addEventListener('scroll', () => {
+  reveals.forEach(el => {
+    const top = el.getBoundingClientRect().top;
+    if (top < window.innerHeight - 100) { el.classList.add('active'); }
+  });
+});
+</script>
+</body></html>

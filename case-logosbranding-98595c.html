@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dimara Jewellery | Jonathan Galea</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">← Back to Portfolio</a>
+  </div>
+</nav>
+
+<!-- Hero Image -->
+<img src="images/Jonathan Galea Portfolio_Page_016.jpg" class="case-hero reveal" alt="Hero Image">
+
+<section class="case reveal">
+
+  <h1>Dimara Jewellery</h1>
+
+  <div class="meta">
+    <div>
+      <strong>Client</strong>
+      <p>Dimara Jewellery</p>
+    </div>
+    <div>
+      <strong>Role</strong>
+      <p>Graphic Designer</p>
+    </div>
+    <div>
+      <strong>Year</strong>
+      <p>2008</p>
+    </div>
+  </div>
+
+  <h3>The Challenge</h3>
+  <p class="desc">
+    Create an elegant, luxurious, and memorable logo for Dimara, a high-end jewellery brand. The mark needed to convey sophistication, craftsmanship, and timeless beauty while being versatile enough for use on packaging, signage, business cards, and digital platforms.
+  </p>
+
+  <h3>The Process</h3>
+  <p class="desc">
+    Focused on premium jewellery aesthetics — clean lines, refined details, and a sense of exclusivity. Developed a custom wordmark with a stylized, graceful “D” incorporating subtle jewellery-inspired elements (delicate curves and refined serifs). Carefully balanced elegance with strong readability.
+  </p>
+  <div class="process-images">
+  </div>
+
+  <h3>The Solution</h3>
+  <p class="desc">
+    A sophisticated black logo featuring a custom elegant wordmark with a distinctive “D” that evokes luxury and craftsmanship. The design uses refined typography and subtle detailing to create a premium feel that stands out in the competitive jewellery market.
+  </p>
+
+  <h3>Results / Impact</h3>
+  <p class="desc">
+    The logo was successfully implemented as Dimara Jewellery’s official brand identity. Its luxurious and timeless quality has helped strengthen the brand’s visual presence across physical stores, packaging, and marketing materials, effectively communicating the brand’s high-end positioning.
+  </p>
+
+  <h3>Gallery</h3>
+  <div class="case-grid">
+    <img src="images/Jonathan Galea Portfolio_Page_016.jpg" alt="Gallery Image">
+  </div>
+
+  <div class="tags">
+    <span>Logo Design</span> <span>Branding</span> <span>Jewellery</span> <span>Luxury Brand</span> <span>Visual Identity</span>
+  </div>
+
+</section>
+
+<footer>
+  <p>© Jonathan Galea</p>
+</footer>
+
+<script>
+const reveals = document.querySelectorAll('.reveal');
+window.addEventListener('load', () => { reveals.forEach(el => el.classList.add('active')); });
+window.addEventListener('scroll', () => {
+  reveals.forEach(el => {
+    const top = el.getBoundingClientRect().top;
+    if (top < window.innerHeight - 100) { el.classList.add('active'); }
+  });
+});
+</script>
+</body></html>

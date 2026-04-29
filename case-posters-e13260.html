@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Life Drawing Models | Jonathan Galea</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="logo">← Back to Portfolio</a>
+  </div>
+</nav>
+
+<!-- Hero Image -->
+<img src="images/Jonathan Galea Portfolio_Page_011.jpg" class="case-hero reveal" alt="Hero Image">
+
+<section class="case reveal">
+
+  <h1>Life Drawing Models</h1>
+
+  <div class="meta">
+    <div>
+      <strong>Client</strong>
+      <p>Malta Society of Arts (MSA)</p>
+    </div>
+    <div>
+      <strong>Role</strong>
+      <p>Graphic Designer</p>
+    </div>
+    <div>
+      <strong>Year</strong>
+      <p>2023</p>
+    </div>
+  </div>
+
+  <h3>The Challenge</h3>
+  <p class="desc">
+    Design an eye-catching poster to recruit life drawing models for weekly art classes, clearly communicating practical information while appealing to artists and potential models.
+  </p>
+
+  <h3>The Process</h3>
+  <p class="desc">
+    Used a simple, clean composition featuring a wooden stool as the central visual element. Combined bold red “APPLY NOW” call-to-action with clear body text.
+  </p>
+  <div class="process-images">
+  </div>
+
+  <h3>The Solution</h3>
+  <p class="desc">
+    Minimal yet effective poster with strong hierarchy, ample white space, and a friendly, inviting tone.
+  </p>
+
+  <h3>Results / Impact</h3>
+  <p class="desc">
+    Successfully promoted the life drawing sessions organized by the Malta Society of Arts.
+  </p>
+
+  <h3>Gallery</h3>
+  <div class="case-grid">
+    <img src="images/Jonathan Galea Portfolio_Page_011.jpg" alt="Gallery Image">
+  </div>
+
+  <div class="tags">
+    <span>Poster Design</span> <span>Event Promotion</span> <span>Print Design</span>
+  </div>
+
+</section>
+
+<footer>
+  <p>© Jonathan Galea</p>
+</footer>
+
+<script>
+const reveals = document.querySelectorAll('.reveal');
+window.addEventListener('load', () => { reveals.forEach(el => el.classList.add('active')); });
+window.addEventListener('scroll', () => {
+  reveals.forEach(el => {
+    const top = el.getBoundingClientRect().top;
+    if (top < window.innerHeight - 100) { el.classList.add('active'); }
+  });
+});
+</script>
+</body></html>
